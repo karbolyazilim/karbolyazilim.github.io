@@ -62,11 +62,11 @@ a{
 }
 
 .section-2 a{
-    display: block;
+    display: inline-block;
     padding: 4px;
     font-size: 1.1rem;
     padding-left: 0;
-    width: 150px;
+    width: auto;
 }
 /* animations / utilities */
 .section-2 a:hover{
@@ -152,7 +152,7 @@ h2 {
 }
 
 .wave {
-border-color: #99e550;
+border-color: rgba(37, 99, 235, 0.4);
   border-style: solid;
   height: 150%;
   width: 150%;
@@ -195,4 +195,18 @@ border-color: #99e550;
 p.indent {
   text-indent: 1em;
   padding-left: 1em;
+}
+
+.section-2 h2 a{
+    display: inline;
+    font-size: inherit;
+    color: #fff;
+    white-space: nowrap;
+    width: auto;
+    text-decoration: none;
+}
+.section-2 h2 a:hover{
+    font-size: inherit;
+    color: #3B82F6;
+    cursor: pointer;
 }
